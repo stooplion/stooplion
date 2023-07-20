@@ -1,8 +1,8 @@
 {
-  "name": "simplefolio",
+  "name": "jb-portfolio",
   "version": "1.0.1",
   "private": "true",
-  "description": "A clean, beautiful and responsive portfolio template for Developers!",
+  "description": "Forked from Simplefolio",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
@@ -11,15 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobiwave/simplefolio"
+    "url": "git+https://github.com/stooplion/stooplion"
   },
   "keywords": [],
-  "author": "Jacobo Martinez",
+  "author": "Johnny Bassett",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cobiwave/simplefolio/issues"
-  },
-  "homepage": "https://github.com/cobiwave/simplefolio#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
     "gh-pages": "^5.0.0",
