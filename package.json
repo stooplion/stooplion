@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "deploy": "gh-pages -d docs"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
