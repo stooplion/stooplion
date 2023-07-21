@@ -1,21 +1,17 @@
 {
   "name": "jb-portfolio",
   "version": "1.0.1",
-  "private": "true",
+  "private": "false",
   "description": "Forked from Simplefolio",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
+    "predeploy": "parcel build src/index.html --public-url /stooplion/",
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stooplion/stooplion"
-  },
-  "keywords": [],
+  "homepage": "http://stooplion.github.io/stooplion",
   "author": "Johnny Bassett",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
     "gh-pages": "^5.0.0",

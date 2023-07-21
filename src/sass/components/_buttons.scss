@@ -105,3 +105,42 @@
 .up i {
   color: #272727;
 }
+
+/* Apply some basic styles to the image */
+.emoji-img {
+  width: 50px; /* Set the width of the image */
+}
+
+/* Define the animation for the continuous up and down movement */
+@keyframes moveUpDown {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); } /* Adjust the distance the image moves up */
+  100% { transform: translateY(0); }
+}
+
+/* Apply the animation to the image on hover */
+.emoji-img:hover {
+  animation: moveUpDown 1s infinite; /* Adjust the animation duration as needed */
+}
+
+/* Create a container div to right-justify the emoji hand */
+.right-justified-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Apply some basic styles to the image */
+.wave-img {
+  width: 50px; /* Set the width of the image */
+}
+
+/* Define the animation for the waving motion */
+@keyframes waveHand {
+  0%, 100% { transform: rotate(0); }
+  50% { transform: rotate(-20deg); } /* Adjust the angle of the rock */
+}
+
+/* Apply the animation to the image on hover */
+.wave-img:hover {
+  animation: waveHand .5s ease-in-out infinite; /* Adjust the animation duration as needed */
+}
